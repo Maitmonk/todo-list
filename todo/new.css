@@ -1,0 +1,64 @@
+body {
+	font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkturquoise;
+  	font-weight: 300;
+  	text-align: center;
+  	background-color: none;
+}
+.strike-through {
+  	text-decoration: line-through;
+    text-decoration-style: bold;
+  	text-decoration-color: red;
+  	  
+}
+.new-task-button {
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    color: black;
+    background-color: lightgrey;
+}
+
+.remove-button {
+    width: 180px;
+    height: 40px;
+    font-size: 15px;
+    color: black;
+    background-color: lightgrey;
+}
+
+.add-element {
+    width: 400px;
+    height: 20px;
+    font-size: 15px;
+    border-style: inset;
+    border-color: black;
+    border-radius: 1px;
+}
+
+.container {
+    position: relative;
+    max-width: 700px;
+    height: auto;
+    background-color: #FFCBA4;
+	box-sizing: border-box;
+	transition: 0.5s;
+    border-style: darkturquoise;
+    border-color: black;
+    border-radius: 10px;
+}
+
+li {
+    border-style: outset;
+    border-color: gray; 
+    border-radius: 1px;
+    border-width: 1px;
+    background-color:darkturquoise ;
+    color: black; 
+    max-width: 500px;
+}
+
+ul {
+    list-style-type: none;
+}
